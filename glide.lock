@@ -1,5 +1,5 @@
-hash: bec7dc709ea720c6afe9ecceb86df859ff9c865037d35619be926e3ae2a2f615
-updated: 2017-02-28T23:49:50.498135279+02:00
+hash: 3a0bbd6b7b506df6dfcd801b0283a87ccb2b1b7b4037f1155bec7b44bf175364
+updated: 2017-03-23T22:57:46.651081442+02:00
 imports:
 - name: github.com/dgrijalva/jwt-go
   version: 2268707a8f0843315e2004ee4f1d021dc08baedf
@@ -8,16 +8,16 @@ imports:
   subpackages:
   - middleware
 - name: github.com/labstack/gommon
-  version: e8995fb26e646187d33cff439b18609cfba23088
+  version: 9cedb429ffbe71a32a3ae7c65fd109cb7ae07804
   subpackages:
   - bytes
   - color
   - log
   - random
 - name: github.com/mattn/go-colorable
-  version: d898aa9fb31c91f35dd28ca75db377eff023c076
+  version: a392f450ea64cee2b268dfaacdc2502b50a22b18
 - name: github.com/mattn/go-isatty
-  version: dda3de49cbfcec471bd7a70e6cc01fcc3ff90109
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
 - name: github.com/tylerb/graceful
   version: d72b0151351a13d0421b763b88f791469c4f5dc7
 - name: github.com/valyala/bytebufferpool
@@ -25,17 +25,19 @@ imports:
 - name: github.com/valyala/fasttemplate
   version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
 - name: golang.org/x/crypto
-  version: 453249f01cfeb54c3d549ddb75ff152ca243f9d8
+  version: 459e26527287adbc2adcc5d0d49abff9a5f315a7
   subpackages:
   - acme
   - acme/autocert
 - name: golang.org/x/net
-  version: 906cda9512f77671ab44f8c8563b13a8e707b230
+  version: 3e967e1d28d2c9c06e749dc2bdc14b04df89e689
   subpackages:
   - context
   - context/ctxhttp
 - name: golang.org/x/sys
-  version: e4594059fe4cde2daf423055a596c2cd1e6c9adf
+  version: 8fd966b47dbdd4faa03de0d06e3d733baeb9a1a9
   subpackages:
   - unix
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
 testImports: []
