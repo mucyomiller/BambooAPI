@@ -1,4 +1,5 @@
-{{template header}}
+{{define "home"}}
+{{template "header" .}}
 <div class="ms-hero ms-hero-material">
 <span class="ms-hero-bg"></span>
 <div class="container">
@@ -19,7 +20,7 @@
 <div class="card animation-delay-6">
   <div class="withripple zoom-img">
     <a href="javascript:void()">
-      <img src="assets/img/demo/port5.jpg" alt="..." class="img-responsive">
+      <img src="static/frontend/img/demo/port5.jpg" alt="..." class="img-responsive">
     </a>
   </div>
   <div class="card-block">
@@ -34,7 +35,7 @@
 <div class="card  animation-delay-8">
   <div class="withripple zoom-img">
     <a href="javascript:void()">
-      <img src="assets/img/demo/port5.jpg" alt="..." class="img-responsive">
+      <img src="static/frontend/img/demo/port5.jpg" alt="..." class="img-responsive">
     </a>
   </div>
   <div class="card-block">
@@ -49,7 +50,7 @@
 <div class="card animation-delay-10">
   <div class="withripple zoom-img">
     <a href="javascript:void()">
-      <img src="assets/img/demo/port5.jpg" alt="..." class="img-responsive">
+      <img src="static/frontend/img/demo/port5.jpg" alt="..." class="img-responsive">
     </a>
   </div>
   <div class="card-block">
@@ -64,7 +65,7 @@
 <div class="card animation-delay-6">
   <div class="withripple zoom-img">
     <a href="javascript:void()">
-      <img src="assets/img/demo/port5.jpg" alt="..." class="img-responsive">
+      <img src="static/frontend/img/demo/port5.jpg" alt="..." class="img-responsive">
     </a>
   </div>
   <div class="card-block">
@@ -79,7 +80,7 @@
 <div class="card animation-delay-8">
   <div class="withripple zoom-img">
     <a href="javascript:void()">
-      <img src="assets/img/demo/port5.jpg" alt="..." class="img-responsive">
+      <img src="static/frontend/img/demo/port5.jpg" alt="..." class="img-responsive">
     </a>
   </div>
   <div class="card-block">
@@ -94,7 +95,7 @@
 <div class="card animation-delay-10">
   <div class="withripple zoom-img">
     <a href="javascript:void()">
-      <img src="assets/img/demo/port5.jpg" alt="..." class="img-responsive">
+      <img src="static/frontend/img/demo/port5.jpg" alt="..." class="img-responsive">
     </a>
   </div>
   <div class="card-block">
@@ -108,4 +109,5 @@
 </div>
 </div>
 </div>
-{{template footer}}
+{{template "footer" .}}
+{{end}}

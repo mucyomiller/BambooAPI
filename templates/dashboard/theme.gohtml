@@ -1,3 +1,5 @@
-{{ template "header" }}
-<p>content goes here </p>
-{{ template "footer" }}
+{{define "theme"}}
+{{template "header" .}}
+<p>content </p>
+{{template "footer" .}}
+{{end}}
