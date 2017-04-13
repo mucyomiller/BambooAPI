@@ -1,10 +1,11 @@
 package views
 
 import (
-	"github.com/labstack/echo"
 	"html/template"
 	"io"
 	"net/http"
+
+	"github.com/labstack/echo"
 )
 
 type (
