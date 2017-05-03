@@ -82,7 +82,6 @@ func GetByID(id string) (Menu, error) {
 func NewMenu(m Menu) (Menu, error) {
 	db := config.DB{}
 	m.ID = bson.NewObjectId()
-	//m.CreatedAt = time.Now()
 
 	s, err := db.DoDial()
 
